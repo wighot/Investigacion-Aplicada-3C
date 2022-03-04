@@ -1,0 +1,45 @@
+
+/*efectos de el apartado de Nuevos Modelos*/
+.hoverbox a .preview
+{
+	display: none;
+	opacity: 2;
+}
+
+.hoverbox a:hover .preview
+{
+	display: block;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	}
+	
+
+.hoverbox img
+{
+	background: #fff;
+	border-width: 1px;
+	color: inherit;
+	padding: 2px;
+	vertical-align: top;
+	width: 300px;
+	height: 360px;
+	line-height: 40px;
+	margin: 8px 15px 10px;
+}
+
+.hoverbox li
+{
+
+	color: inherit;
+	display: inline;
+	margin: 3px;
+	padding: 3px;
+	position: relative;
+}
+
+.hoverbox .preview
+{
+	width: 300px;
+	height: 360px;
+}
